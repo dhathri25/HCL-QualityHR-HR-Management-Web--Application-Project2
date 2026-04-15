@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QualityHR Suite">
+    <listeners>
+        <listener class-name="com.qualityhr.listeners.TestListener"/>
+    </listeners>
+    <test name="FinalStableTest" preserve-order="true">
+        <classes>
+            <class name="com.qualityhr.tests.LoginTest"/>
+            <class name="com.qualityhr.tests.LeaveTest"/>
+        </classes>
+    </test>
+</suite>
