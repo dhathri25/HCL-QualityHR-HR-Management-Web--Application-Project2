@@ -25,6 +25,7 @@ public class LeavePage extends BasePage {
     private By confirmBtn = By.xpath("//button[contains(@class, 'oxd-button--secondary') and (contains(.,'Yes') or contains(.,'Ok'))]");
 
     public LeavePage(WebDriver driver) {
+    	
         super(driver);
         this.helper = new WaitHelper(driver);
     }

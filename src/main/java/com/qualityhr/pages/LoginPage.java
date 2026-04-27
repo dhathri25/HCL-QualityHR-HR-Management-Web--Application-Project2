@@ -16,5 +16,6 @@ public class LoginPage extends BasePage {
         sendKeys(usernameField, user);
         sendKeys(passwordField, pass);
         click(loginBtn);
+        
     }
 }

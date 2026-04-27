@@ -17,7 +17,7 @@ public class EmployeePage extends BasePage {
     // Using a more stable attribute for Employee ID
     private By employeeIdField = By.xpath("//label[text()='Employee Id']/parent::div/following-sibling::div/input");
     
-    // Login Details Toggle & Fields
+   
     private By loginDetailsToggle = By.xpath("//span[contains(@class, 'oxd-switch-input')]");
     
     // Using specific labels to find fields rather than index numbers

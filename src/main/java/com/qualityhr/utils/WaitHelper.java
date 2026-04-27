@@ -23,6 +23,7 @@ public class WaitHelper {
         }
     }
 
+    
     public void sendText(By locator, String text) {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         element.click();

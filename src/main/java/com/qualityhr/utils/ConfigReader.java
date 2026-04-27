@@ -19,6 +19,7 @@ public class ConfigReader {
             System.err.println("CRITICAL: Error loading config.properties");
             e.printStackTrace();
         }
+        
     }
 
     public String getBrowser() { return properties.getProperty("browser"); }

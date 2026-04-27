@@ -15,6 +15,7 @@ public class DriverFactory {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");         
             System.setProperty("webdriver.chrome.silentOutput", "true");
+            
            
             driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {

@@ -26,5 +26,6 @@ public class LeaveTest extends BaseTest {
         Assert.assertTrue(result, "Final Leave List verification failed.");
         
         System.out.println(">>> 5/5 PASS ACHIEVED - PROJECT COMPLETE <<<");
+        
     }
 }

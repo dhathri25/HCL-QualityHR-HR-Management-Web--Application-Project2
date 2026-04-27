@@ -24,5 +24,6 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(isDashboard, "Login failed! Dashboard was not reached.");
         
         System.out.println(">>> LOGIN TEST PASSED - 5/5 <<<");
+        
     }
 }

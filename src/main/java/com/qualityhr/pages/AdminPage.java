@@ -21,6 +21,7 @@ public class AdminPage extends BasePage {
     private By saveButton = By.xpath("//button[@type='submit']");
     private By successToast = By.xpath("//p[text()='Successfully Saved']");
 
+    
     public AdminPage(WebDriver driver) {
         super(driver);
     }
